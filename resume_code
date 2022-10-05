@@ -1,0 +1,56 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+%opening
+\title{\color{brown}\begin{Huge}RESUME\end{Huge}}
+\author{\color{red}\begin{LARGE}SHAIK ASMA\end{LARGE}}
+
+\begin{document}
+
+\maketitle
+\section{\color{green}PERSONAL DETAILS}
+\begin{table}[h]
+
+\begin{tabular}{l l}
+
+
+ \\NAME & Shaik Asma
+ \\ID & B192247
+ \\UNIVERSITY & Rajeev Gandhi University of Knowledge Technologies, IIIT BASAR
+ \\BRANCH & Computer Science and Engineering (CSE)
+ \\EMAIL & b192247@rgukt.ac.in
+\end{tabular}
+\end{table}
+
+{\color{purple}\subsection{FAMILY DETAILS}}
+\begin{table}[h]
+\begin{tabular} {l l}
+ FATHER NAME & Shaik samiuddin\\
+ MOTHER NAME & Shaik Taslim Asma\\
+ BROTHER NAME & a shafiuddin
+ \end{tabular}
+\end {table}
+
+{\color{blue}\subsubsection{MARKS}}
+\begin{table}[h]
+
+\begin{tabular}{|c |c |c |}
+\hline
+SSC & PUC1 & PUC2\\
+\hline 
+9.7 & 8.0 & 8.6\\
+\hline
+\end{tabular} 
+\end{table}
+
+{\color{orange}\subsubsection{HOBBIES}}
+watching TV, watching Youtube
+
+{\color{blue}\subsubsection{IMAGE}}
+\begin{figure}[h]
+ \centering
+ \includegraphics{index.png}
+\end{figure}
+
+\end{document}
