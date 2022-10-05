@@ -1,0 +1,67 @@
+\documentclass{beamer}
+\usepackage{minted}
+
+\usetheme{Madrid}
+
+\title{BEAMER PROJECT}
+\author{SHAIK ASMA}
+\date{August 2022}
+\logo{
+\includegraphics[width=3cm]{RGUKT-Logo.jpeg}
+}
+\begin{document}
+
+\maketitle
+
+\begin{frame}
+
+\frametitle{What is Beamer}
+
+Beamer is a LaTeX document class for creating presentation slides, with a wide range of templates and a set of features for making slideshow effects. It supports pdfLaTeX, LaTeX + dvips, LuaLaTeX and XeLaTeX. The name is taken from the German word "Beamer" as a pseudo-anglicism for "video projector".
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Table of Contents}
+% Presentation structure
+\section{Problem statement}
+\section{Existing results}
+\subsection{Method 1}
+    \subsection{Method 2}
+    \subsection{Method 3}
+\section{Comparative study}
+\section*{References}
+\tableofcontents
+
+
+
+\end{frame}
+\begin{frame}
+\frametitle{Itemizing a Frame}
+\begin{itemize}
+    \item<1->Beamer is a Latex document
+    \item<1->Beamer is used for presention slides
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Highlighting Texts}
+\begin{block}{Note}
+Beamer can be very well done online 
+\end{block}
+
+\begin{alertblock}{Important Note}
+In this block the text will be in red box
+\end{alertblock}
+
+\begin{examples}
+In this block the text will be in green box
+
+\end{examples}
+\end{frame}
+
+\begin{frame}
+\frametitle{Image}
+\includegraphics[height=5cm] {IT.jpeg} 
+\end{frame}
+\end{document}
